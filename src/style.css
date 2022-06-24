@@ -1,1 +1,15 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.mt-5 {
+  display: flex;
+  justify-content: center;
+}
+#PINTACARTA {
+  display: flex;
+  justify-content: center;
+}
+
+#NUMEROCARTA2 {
+  display: flex;
+  justify-content: flex-end;
+}
