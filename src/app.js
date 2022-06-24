@@ -27,5 +27,5 @@ window.onload = function() {
 
   var frase = (document.getElementById("NUMEROCARTA").innerHTML = NUMERORAN);
   var frase = (document.getElementById("NUMEROCARTA2").innerHTML = NUMERORAN);
-  var frase2 = (document.getElementsByTagName("h3").innerHTML = PINTARAN);
+  var frase2 = (document.getElementById("sele").innerHTML = PINTARAN);
 };
