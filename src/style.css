@@ -13,3 +13,13 @@
   display: flex;
   justify-content: flex-end;
 }
+.contenido {
+  background-color: green;
+}
+.lacarta {
+  background-color: whitesmoke;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
