@@ -29,4 +29,11 @@ window.onload = function() {
   var frase = (document.getElementById("NUMEROCARTA").innerHTML = PINTARAN);
   var frase = (document.getElementById("NUMEROCARTA2").innerHTML = PINTARAN);
   var frase2 = (document.getElementById("sele").innerHTML = NUMERORAN);
+
+  if (frase == "♥") {
+    document.getElementById("lacarta").style.color = "#ff0000";
+  }
+  if (frase == "♦") {
+    document.getElementById("lacarta").style.color = "#ff0000";
+  }
 };
