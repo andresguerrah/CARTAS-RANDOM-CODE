@@ -22,10 +22,11 @@ window.onload = function() {
     "Q",
     "K"
   ];
+
   const NUMERORAN = Numero[Math.floor(Math.random() * Numero.length)];
   const PINTARAN = Pinta[Math.floor(Math.random() * Pinta.length)];
 
-  var frase = (document.getElementById("NUMEROCARTA").innerHTML = NUMERORAN);
-  var frase = (document.getElementById("NUMEROCARTA2").innerHTML = NUMERORAN);
-  var frase2 = (document.getElementById("sele").innerHTML = PINTARAN);
+  var frase = (document.getElementById("NUMEROCARTA").innerHTML = PINTARAN);
+  var frase = (document.getElementById("NUMEROCARTA2").innerHTML = PINTARAN);
+  var frase2 = (document.getElementById("sele").innerHTML = NUMERORAN);
 };

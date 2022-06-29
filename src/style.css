@@ -1,25 +1,35 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
-.mt-5 {
-  display: flex;
-  justify-content: center;
+.contenido {
+  background-color: rgb(25, 107, 25);
 }
+#lacarta {
+  border-radius: 7%;
+  background-color: rgb(255, 250, 250);
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.paño {
+  background-color: rgba(23, 160, 41, 0.452);
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
 #sele {
   display: flex;
   justify-content: center;
+  font-size: 100px;
 }
 
 #NUMEROCARTA2 {
   display: flex;
   justify-content: flex-end;
+  font-size: 100px;
 }
-.contenido {
-  background-color: green;
-}
-.lacarta {
-  background-color: whitesmoke;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+#NUMEROCARTA {
+  font-size: 100px;
 }
